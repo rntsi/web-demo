@@ -17,8 +17,8 @@ function LoginForm({ Login, error }) {
   return (
     <div className="w-full h-full flex flex-col place-items-center rounded-3xl space-y-4 p-16 bg-white">
       <img src={avatar} alt="avatar" className="rounded-full w-12 h-12"></img>
-      <h2 className="font-bold text-2xl mt-2 text-sky-700">Cabin Interiors IoT Cloud Platform</h2>
-      <h2 className="text-xl mt-2 text-sky-500">(Sample Containerized Application Deployment Demo)</h2>
+      <h2 className="font-bold text-2xl mt-2 text-sky-700"> Platform</h2>
+      <h2 className="text-xl mt-2 text-sky-500">(Sample Demo)</h2>
       
       <form
         onSubmit={handleSubmit}
